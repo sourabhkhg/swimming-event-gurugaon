@@ -18,3 +18,10 @@ li {
 a {
   color: inherit;
 }
+
+.divider {
+  width: 104px;
+  height: 2px;
+  background: #34d890;
+  margin: 16px;
+}

@@ -8,11 +8,13 @@ body {
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
   box-sizing: border-box;
+  color: #2d3436;
 }
 
 header {
-  width: 90%;
+  width: 80%;
   margin: 0 auto !important;
+  padding: 16px 0;
 }
 
 header > div.title {
@@ -47,6 +49,22 @@ header > div.event > p {
   font-size: 0.75rem;
 }
 
+header > div.countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #eee;
+}
+
+header > div.countdown > p {
+  display: flex;
+  flex-flow: column;
+}
+
+header > div.countdown > p > span:first-child {
+  font-size: 1rem;
+}
+
 /** Navbar Styling **/
 nav {
   background: #ff3f34;
@@ -72,4 +90,33 @@ nav > ul > li:last-child {
 }
 nav > ul > li > a {
   color: #fff;
+}
+
+/** Poster **/
+
+section > div.poster {
+  width: 100%;
+}
+section > div.poster > img {
+  width: 100%;
+  height: 100%;
+}
+
+/** Intro **/
+
+section > div.intro {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin: 16px;
+}
+section > div.intro > h3 {
+  letter-spacing: 3px;
+}
+
+section > div.intro > p {
+  width: 59%;
+  padding: 8px 0;
+  font-weight: 400;
 }
